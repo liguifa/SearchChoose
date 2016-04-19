@@ -1,0 +1,36 @@
+.bing{
+    height: 38px;
+    outline:none;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+.baidu{
+    height:34px;
+    outline:none;
+    border: 1px solid #b6b6b6;
+    border-left: none;
+    border-color:#b8b8b8 transparent #ccc #b8b8b8;
+    margin: 0px;
+    padding: 0px;
+}
+.github{
+    height: 26px;
+    float: right;
+     outline:none;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    margin-top:-25px;
+    z-index: 999;
+}
+._360{
+    height: 36px;
+    outline:none;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-left: none;
+}

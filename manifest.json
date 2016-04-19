@@ -1,0 +1,28 @@
+{
+	"name":"搜索切换",
+	"version":"1.0.0",
+	"manifest_version": 2,  
+	"description":"在任何搜索引擎上，可以选择随意切换其他搜索引擎.",
+	"browser_action": 
+	{  
+    	"default_icon": "res/start.png" ,
+    	"default_title": "搜索切换",
+        "default_popup": "views/popup.html"
+    },
+    "icons":
+    {
+        "16": "res/logo_16.png",             
+        "48": "res/logo_48.png",            
+        "128": "res/logo_128.png"   
+    },
+	"content_scripts": 
+	[{
+    	"matches": ["http://*/*","https://*/*"],
+    	"js": ["script/jquery.min.js","script/script.js"],
+        "css":["css/theme.css"]
+    }],
+    "permissions": 
+    [
+        "storage"
+    ]
+}
